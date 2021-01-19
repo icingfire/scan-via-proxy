@@ -6,7 +6,7 @@ from datetime import datetime
 # how many ports for one thread
 g_thread_factor = 25
 # network can be poor behind proxies
-g_max_threads = 20
+g_max_threads = 40
 g_port_scan_script = "./port_check.sh"
 g_nmap_top_ports = "./nmap_tcp_ports"
 g_target_generator = None
