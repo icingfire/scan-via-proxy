@@ -48,12 +48,6 @@ class GeneTargets:
             self.stopall()
 
 
-def generate_ip_port_list(ip_l, port_l):
-    for one_port in port_l:
-        for one_ip in ip_l:
-            yield one_ip + " " + str(one_port)
-
-
 class CheckSvc:
     def __init__(self):
         self.que = queue.Queue()
