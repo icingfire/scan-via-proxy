@@ -24,7 +24,6 @@ Installation
 apt install expect
 chmod +x port_check.sh
 python3 -m pip install IPy
-python3 -m pip install threadpool
 ```
 
 
