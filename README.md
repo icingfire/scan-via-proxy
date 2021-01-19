@@ -12,9 +12,9 @@ Overview
 --------
 - 使用场景：
 ```
-attacker-machine(run intra-scanner)  <--->  vps proxy server  <--->  intranet-machine(proxy client)  <---> other-intranet-machines(scan targets)
+本机(run intra-scan) <---> proxy服务器(vps) <---> 内网机器(proxy客户端) <---> 内网其它机器（工具扫描目标）
 ```
-**Notes**: 在特定的情况下，不方便直接在目标内网机器上安装或运行端口扫描工具，但目标内网机器仍可反弹代理的情况下，本工具可隔着代理扫描内网机器
+**Notes**: 在特定的情况下，不方便直接在目标内网机器上安装或运行端口扫描工具，但目标内网机器仍可反弹代理的情况下，本工具可隔着代理扫描内网机器。常规的nmap/fscan等扫描工具在挂代理的情况下，会错误的判断所有端口都开启。
 
 
 Installation
