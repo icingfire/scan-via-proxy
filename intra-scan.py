@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import sys, getopt, re, os, threadpool, threading, time, queue
+import sys, getopt, re, os, threading, time, queue
 from IPy import IP
 from datetime import datetime
 
