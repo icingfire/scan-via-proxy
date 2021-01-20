@@ -1,5 +1,5 @@
 
-intra-scanner - Simple tcp port scanner via proxies
+scan-via-proxy - Simple tcp port scanner via proxies
 =========
 
 ![Build](https://img.shields.io/badge/Built%20with-Python-Blue)
@@ -55,7 +55,9 @@ proxychains python3 scan-via-proxy.py --top-ports 300 -t 192.168.0.10-255
 其它说明
 -----------
 默认最大的扫描线程数是40，见python中g_max_threads，可根据自己网络和代理的性能增加或减少
-stat 扫描进度日志，当扫描的资产量较大时，可以通过该日志查看大致的进度。该日志大概2分多种刷新一次 
+
+stat 扫描进度日志，当扫描的资产量较大时，可以通过该日志查看大致的进度。该日志大概2分多种刷新一次
+
 port_chk.log 端口扫描产生的debug日志，多个线程同时写入，打印比较乱
 
 
